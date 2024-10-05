@@ -1,0 +1,92 @@
+/* Login e cadastro utilizam o mesmo css.  */
+/* O template das duas páginas são iguis */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-image: url("../assets/imgs/bg-jelly-fish-para_outras_pags.png");
+}
+
+.card {
+  background-color: #dcdcdc;
+}
+
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 83vh;
+  padding: 20px;
+}
+
+.login .card {
+  width: 600px;
+  padding-right: 50px !important;
+  border-radius: 10px;
+  padding-left: 50px !important;
+  padding: 25px;
+}
+
+.card-login h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #ed145b;
+}
+
+.campo {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.campo span {
+  color: #ed145b;
+  font-weight: bold;
+}
+
+.campo input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #dcdcdc;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.campo input:focus {
+  border: 2px solid #32b9cd;
+}
+
+.campo input:focus-visible {
+  outline: none;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.formulario button {
+  padding: 6px;
+  background-color: #ed145b;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 17px;
+  cursor: pointer;
+  width: 20%;
+}
+
+
+/* titulo do cadastro.*/
+.card-cadastro h2 {
+    text-align: center;
+    font-size: 33px;
+    margin-bottom: 20px;
+    color: #ed145b;
+}

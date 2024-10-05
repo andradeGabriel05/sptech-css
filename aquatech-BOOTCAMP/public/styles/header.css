@@ -1,0 +1,30 @@
+header {
+    background-color: black;
+    border-bottom: solid 3px #32b9cd;
+    padding: 20px;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+header .titulo {
+    color: #32b9cd;
+}
+
+header .navbar {
+    display: flex;
+    list-style: none;
+    width: 300px;
+    justify-content: space-between;
+    color: #e3b062;
+}
+
+.navbar a {
+    color: #e3b062;
+    text-decoration: none;
+}
